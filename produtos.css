@@ -14,7 +14,13 @@ nav li{
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+
 }
+
+nav a:hover{
+    color: #c78c19;
+}
+
 nav{
     position: absolute;
     top: 110px;
@@ -30,7 +36,7 @@ nav{
     padding: 30px 20px;
     box-sizing: border-box;
     border: 2px solid black;
-    
+    border-radius: 10px;
 }
 .produtos{
     width: 940px;
@@ -59,4 +65,5 @@ nav{
     font-size: 18px;
 
 }
+
 
