@@ -29,9 +29,9 @@ nav{
 }
 .produtos li{
     display: inline-block;
-    width:30%;
+    width: 30%;
     text-align: center;
-    vertical-align:top ;
+    vertical-align: top ;
     /*background: grey;*/
     margin: 0 1.5%;
     padding: 30px 20px;
@@ -81,10 +81,10 @@ nav{
 footer{
     text-align: center;
     background: url("bg.jpg");
-    padding: 40px 0;
+    padding: 40px 0px;
     
 }
 .copyright{
-    color:#ffffff;
+    color:#fcfbfb;
     font-size: 13px;
 }
