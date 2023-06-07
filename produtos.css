@@ -82,7 +82,7 @@ main{
 form{
     margin: 40px;
 }
-form label, form p{
+form label, form legend{
     font-size: 20px;
     display: block;
     margin: 0 0 10px;
@@ -93,10 +93,11 @@ form label, form p{
     padding: 10px 25px;
     width: 50%;
 }
-/*.checkbox{
+
+.checkbox{
     margin: 20px 0;
 }
-
+/*
 p{
     color: blue;
 }
@@ -114,8 +115,26 @@ p.teste{
 #teste{
     color: #a0a0a0class="teste" id="teste";
 }
-class="teste" id="teste" ta no p qual horario.
-
+class="teste" id="teste" ta no p qual horario. contato.html
 
 */
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: rgb(165, 70, 70);
+    color: black;
+    border-radius: 5px ;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    transition: 2s; background;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: rgb(226, 182, 182) ;
+
+}
+  
 

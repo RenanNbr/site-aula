@@ -30,36 +30,46 @@
                 <form>
 
                     <label for="nomesobrenome">Nome e sobrenome: </label>
-                    <input type="text" id="nomesobrenome" class="input-padrao">
+                    <input type="text" id="nomesobrenome" class="input-padrao" required >
 
                     <label for="email">Email: </label>
-                    <input type="text" id="email"  class="input-padrao">
+                    <input type="email" id="email"  class="input-padrao" required placeholder="seuemail@dominio.com">
 
                     <label for="telefone">Telefone: </label>
-                    <input type="text" id="telefone"  class="input-padrao">
+                    <input type="tel" id="telefone"  class="input-padrao" required placeholder="(XX) XXXX-XXXX">
 
-                    <input type="submit" value="Enviar formulario">
+                    
                     <label for="mensagem">Mensagem</label>
-                    <textarea cols="50" rows="10" id="mensagem" class="input-padrao"></textarea>
+                    <textarea cols="50" rows="10" id="mensagem" class="input-padrao" placeholder="(opcional)"></textarea>
                     
 
                     <div>
-                    <p>Como prefere nosso contato?</p>
+
+                    <fieldset >
+
+                    <legend> Como prefere nosso contato?</legend>
 
                     <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email </label>
                     <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone </label>
-                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"> Whatsapp </label>
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> Whatsapp </label>
                     
-                    <p>Qual horario prefere ser atendido?</p>
-                    <seless=ct name="" id="">
+                    </fieldset>
+                <fieldset>
+
+                    <legend>Qual horario prefere ser atendido?</legend>
+                    <select name="" id="">
                     <option value="">Manha</option>
                     <option value="">Tarde</option>
                     <option value="">Noite</option>
                     </select>
 
-                    <label class="checkbox"></label><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+                </fieldset>
+
+                    <label class="checkbox" ></label><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
                     </div>
-                    
+
+                    <input type="submit" value="Enviar formulario" class="enviar">
+
                 </form>
             </main>
             
