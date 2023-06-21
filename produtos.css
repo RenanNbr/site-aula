@@ -97,6 +97,7 @@ form label, form legend{
 .checkbox{
     margin: 20px 0;
 }
+
 /*
 p{
     color: blue;
@@ -113,7 +114,7 @@ p.teste{
     color: green;class="teste" id="teste"
 }
 #teste{
-    color: #a0a0a0class="teste" id="teste";
+    color: #a0a0a0class="temhx8zT_BPE3kXMste" id="teste";
 }
 class="teste" id="teste" ta no p qual horario. contato.html
 
@@ -128,13 +129,26 @@ class="teste" id="teste" ta no p qual horario. contato.html
     font-weight: bold;
     font-size: 18px;
     border: none;
-    transition: 2s; background;
+    transition: 1s all;
     cursor: pointer;
+    
 }
 
 .enviar:hover{
     background: rgb(226, 182, 182) ;
-
+    transform: scale(1.2);
+    /*transform: rotate(73748378470deg);*/
 }
+table{
+    margin: 20px 0 40px;
   
-
+  }
+  thead{
+      background: #55555555;
+      color: white;
+      font-weight: bold;
+  }
+  td{
+      border: 1px solid black;
+      padding: 8px 10px;
+  }
