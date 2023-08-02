@@ -1,3 +1,7 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
 header {
 	background: #BBBBBB;
 	padding: 20px 0;
@@ -76,6 +80,16 @@ nav a:hover {
 	font-size: 22px;
 	font-weight: bold;
 	margin-top: 10px;
+}
+
+.mapa{
+	padding: 3em 0;
+}
+
+.mapa p{
+ margin: 0 0 2em 0;
+text-align: center;
+
 }
 
 footer {
